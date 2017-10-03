@@ -1,12 +1,15 @@
 module.exports = (robot) => {
-  // Your code here
-  console.log('Yay, the app was loaded!')
-
   // For more information on building apps:
   // https://probot.github.io/docs/
 
   // To get your app running against GitHub, see:
   // https://probot.github.io/docs/development/
+
+  // Handle marketplace routes separately, PRobot doesn't support them.
+  const app = robot.route('/projectsbot');
+  require('./marketplace-routes')(app);
+
+
 
   robot.on('pull_request.opened', async (context) => {
     let config = {};
@@ -64,12 +67,7 @@ module.exports = (robot) => {
 
   })
 
-  robot.on('marketplace_purchase', async (context) => {
+  console.log('Yay, the app was loaded!');
 
-    console.log('Thanks for purchasing ProjectsBot!');
-
-    console.log(JSON.stringify(context.payload, null, 2));
-
-  })
 
 }

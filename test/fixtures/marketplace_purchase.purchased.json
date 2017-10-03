@@ -1,0 +1,49 @@
+{
+  "action": "purchased",
+  "effective_date": "2017-10-02T00:00:00+00:00",
+  "sender": {
+    "login": "homeyer",
+    "id": 84629,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/84629?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/homeyer",
+    "html_url": "https://github.com/homeyer",
+    "followers_url": "https://api.github.com/users/homeyer/followers",
+    "following_url": "https://api.github.com/users/homeyer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/homeyer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/homeyer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/homeyer/subscriptions",
+    "organizations_url": "https://api.github.com/users/homeyer/orgs",
+    "repos_url": "https://api.github.com/users/homeyer/repos",
+    "events_url": "https://api.github.com/users/homeyer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/homeyer/received_events",
+    "type": "User",
+    "site_admin": false,
+    "email": "homeyer@gmail.com"
+  },
+  "marketplace_purchase": {
+    "account": {
+      "type": "Organization",
+      "id": 12262622,
+      "login": "waffleio-test",
+      "organization_billing_email": "billing@waffle.io"
+    },
+    "billing_cycle": "monthly",
+    "unit_count": 1,
+    "next_billing_date": "2017-10-07T00:00:00+00:00",
+    "plan": {
+      "id": 613,
+      "name": "Donate",
+      "description": "ProjectsBot is free, but you can give us $ if you're feeling generous.",
+      "monthly_price_in_cents": 500,
+      "yearly_price_in_cents": 5000,
+      "price_model": "flat-rate",
+      "unit_name": null,
+      "bullets": [
+        "Cheers! ",
+        "If we had t-shirts, we'd send you one",
+        "Send us a note and we'll send you a funny gif back"
+      ]
+    }
+  }
+}
