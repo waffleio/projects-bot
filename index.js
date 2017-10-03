@@ -68,7 +68,7 @@ module.exports = (robot) => {
 
     console.log('Thanks for purchasing ProjectsBot!');
 
-    console.log(JSON.stringify(context.payload, null 2));
+    console.log(JSON.stringify(context.payload, null, 2));
 
   })
 
