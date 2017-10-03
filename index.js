@@ -64,4 +64,12 @@ module.exports = (robot) => {
 
   })
 
+  robot.on('marketplace_purchase', async (context) => {
+
+    console.log('Thanks for purchasing ProjectsBot!');
+
+    console.log(JSON.stringify(context.payload, null 2));
+
+  })
+
 }

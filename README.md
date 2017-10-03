@@ -12,11 +12,11 @@ npm install
 npm start
 ```
 
-# Create configuration file
+## Create configuration file
 Add a `.github/projectsbot.yml` configuration file in your repository to tell ProjectsBot where to automatically place pull requests:
 ```
-project: 'My Project'
-column: 'Review'
+project: My Project
+column: Review
 ```
 
 If ProjectsBot does not find a configuration file it won't automatically move any pull requests.
